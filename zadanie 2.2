@@ -1,0 +1,30 @@
+# class Osoba:
+#     liczba_instancji = 0
+#
+#     def __init__(self, id=0, Notatka=""):
+#         self.__id = id
+#         self.__Notatka = Notatka
+#         Osoba.liczba_instancji += 1
+#
+#     @classmethod
+#     def kopiuj(cls, o):
+#         return cls(o.__id, o.__imie)
+#
+#     def przywitaj_sie(self, imie_innej_osoby):
+#         if self.__imie:
+#             print(f"Notatka : {imie_innej_osoby}{self.__imie}.")
+#         else:
+#             print("Brak danych")
+#
+#
+# osoba1 = Osoba()
+# osoba2 = Osoba(1, "Arturek")
+# osoba3 = Osoba.kopiuj(osoba2)
+# osoba4 = Osoba(2, 'Adrian')
+#
+# osoba1.przywitaj_sie("Piotr")
+# osoba1.przywitaj_sie("Piotr")
+# osoba2.przywitaj_sie("Piotr")
+# osoba4.przywitaj_sie("Kasia")
+#
+# print("Liczba instancji:", Osoba.liczba_instancji)
